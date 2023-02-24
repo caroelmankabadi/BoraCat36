@@ -143,6 +143,11 @@ svg {
   width: 100%;
 }
 
+.img_galeria {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
 #footer {
   text-align: center;
   padding: 1.5rem;
