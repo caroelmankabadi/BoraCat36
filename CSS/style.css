@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: whitesmoke;
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+body {
+  font-family: "Oxygen Mono", monospace;
+}
+
+img {
+  max-width: 100%;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: inline-block;
+  list-style: none;
+}
+
+.nav_item {
+  margin-left: 1.5rem;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+
+.nav__link {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 3rem;
+  text-transform: uppercase;
+  color: grey;
+}
+
+#intro_section {
+  padding-top: 4rem;
+}
+
+.display_2 {
+  text-transform: capitalize;
+  font-size: 4rem;
+}
+
+.display_2_intro {
+  font-weight: 400;
+  text-align: center;
+}
+
+.display_2_description {
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-top: 1.2rem;
+}
+
+.img_box {
+  text-align: center;
+  width: 600mm;
+}
+
+.img_box_1 {
+  text-align: center;
+  width: 100%;
+}
+
+#contact {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.contact_title {
+  padding: 1.5rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.display_3 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.display_4 {
+  font-size: 1.5rem;
+}
+
+.display_5 {
+  font-size: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+.display_6 {
+  font-size: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.form_1 {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.map_location {
+  text-align: center;
+  padding: 2rem;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0.7rem;
+}
+
+.galeria img {
+  width: 100%;
+}
+
+#footer {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.footer_title {
+  padding: 1.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.footer_sm_icons {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.footer-bottom_copyright {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
