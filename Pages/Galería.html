@@ -5,46 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Mi CSS -->
-    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../Css/style.css"  />
     <!-- Icono Bora Cat -->
-    <link rel="shortcut icon" href="IMG/Untitled-3.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../Img/Untitled-3.png" type="image/x-icon" />
     <title>BoraCat 36</title>
     <!-- Google Font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
   </head>
   <body>
     <header>
       <div class="container">
         <div class="row">
-          <!-- Navigation Bar -->
-          <a href="/" class="logo">
-            <img src="../IMG/Untitled-3.png" alt="Logo de la empresa" />
-          </a>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a class="nav__link" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="../Pages/Bora36.html">Bora 36</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="../Pages/Servicios.html"
-                  >Servicios</a
-                >
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="">Galería</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="../Pages/Contactanos.html"
-                  >Contactanos</a
-                >
-              </li>
-            </ul>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a href="/" class="logo">
+                <img src="../Img/Untitled-3.png" alt="Logo de la empresa" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav__item"><a class="nav__link" href="../index.html">Inicio</a></li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="../Pages/Bora36.html">Bora 36</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="../Pages/Servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="">Galería</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="../Pages/Contactanos.html"
+                        >Contactanos</a
+                      >
+                    </li>
+              </div>
+            </div>
           </nav>
         </div>
       </div>
