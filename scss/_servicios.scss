@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 100%;
+  font-family: "Oxygen Mono", monospace;
+
+  .card_title {
+    padding: 1rem;
+  }
+
+  .card_text {
+    padding: 1rem;
+  }
+}
+
+.button {
+  color: black;
+  padding-left: 3rem;
+  padding-top: 3rem;
+
+  &:hover {
+    color: $primary-color;
+  }
+}

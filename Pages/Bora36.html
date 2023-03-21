@@ -5,58 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Mi CSS -->
-    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../Css/style.css"  />
     <!-- Icono Bora Cat -->
-    <link rel="shortcut icon" href="IMG/Untitled-3.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../Img/Untitled-3.png" type="image/x-icon" />
     <title>BoraCat 36</title>
     <!-- Google Font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
   </head>
   <body>
     <header>
       <div class="container">
         <div class="row">
-          <!-- Navigation Bar -->
-          <a href="/" class="logo">
-            <img src="../IMG/Untitled-3.png" alt="Logo de la empresa" />
-          </a>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a class="nav__link" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="">Bora 36</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="../Pages/Servicios.html"
-                  >Servicios</a
-                >
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="../Pages/Galería.html">Galería</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="../Pages/Contactanos.html"
-                  >Contactanos</a
-                >
-              </li>
-            </ul>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a href="/" class="logo">
+                <img src="../Img/Untitled-3.png" alt="Logo de la empresa" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav__item"><a class="nav__link" href="../index.html">Inicio</a></li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="">Bora 36</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="../Pages/Servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="../Pages/Galería.html">Galería</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="../Pages/Contactanos.html"
+                        >Contactanos</a
+                      >
+                    </li>
+              </div>
+            </div>
           </nav>
         </div>
       </div>
     </header>
     <main>
-      <section id="intro_section">
+      <section>
         <div class="container">
-          <h1 class="display_3">Caracteristicas del Catamaran</h1>
-          <h2 class="display_4">Casco, cubierta y camarote</h2>
-          <div class="row">
-            <p class="display_5">
-              Construido a partir de moldes. Molde de los cascos y
+          <h1 class="display_bora">Características del Catamaran</h1>
+          <hr class="featurette-divider">
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="heading_bora">Casco, cubierta y camarote</h2>
+              <p class="display_2_description">Construido a partir de moldes. Molde de los cascos y
               superestructura en una sola pieza, garantizando una solidez total.
               Laminado sólido de fibra de vidrio con tejido biaxial en el fondo
               hasta la línea de flotación. Laminado sólido de fibra de vidrio
@@ -64,75 +75,75 @@
               sándwich de fibra de vidrio en nido de abeja para casco, cubierta,
               cabina y mamparos estructurales. Acabado exterior de gel coat
               pulido. Acabado antideslizante en cubierta y techo de cabina.
-              Altura libre cabina 2,20/1,92 m, Altura libre casco 1,95/1,90 m.
-            </p>
-            <div class="img_box">
-              <img src="../IMG/Bora4 800x800.jpg" alt="Barco" />
+              Altura libre cabina 2,20/1,92 m, Altura libre casco 1,95/1,90 m.</p>
+            </div>
+            <div class="col-md-5">
+              <img src="../IMG/Bora4 800x800.jpg" alt="Barco" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
             </div>
           </div>
-        </div>
-        <div class="container">
-          <h2 class="display_4">Motorización</h2>
-          <div class="row">
-            <p class="display_5">
-              Dos motores diesel Yanmar 3YM30AE. Dos colas Yanmar SD25. Dos
-              hélices de aluminio de 2 palas. Dos baterías de arranque de 65 A
-              Paneles de control de bañeraMando de bañera doble con cables de
-              control. Línea de alimentación diesel. Sistema de escape. Sistema
-              Sistema de filtro de aceite Aislamiento acústico.
-            </p>
-            <div class="img_box">
-              <img src="../IMG/Bora3 800x800.jpg" alt="Barco" />
+          <hr class="featurette-divider">
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="heading_bora">Motorización</h2>
+              <p class="display_2_description">Dos motores diesel Yanmar 3YM30AE. Dos colas Yanmar SD25. Dos
+                hélices de aluminio de 2 palas. Dos baterías de arranque de 65 A
+                Paneles de control de bañeraMando de bañera doble con cables de
+                control. Línea de alimentación diesel. Sistema de escape. Sistema
+                Sistema de filtro de aceite Aislamiento acústico.</p>
+            </div>
+            <div class="col-md-5">
+              <img src="../IMG/Bora2 800x800.jpg" alt="Barco" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
             </div>
           </div>
-        </div>
-        <div class="container">
-          <h2 class="display_4">Iluminación y Ventilación</h2>
-          <div class="row">
-            <p class="display_5">
-              Acceso: Puerta corredera doble de aluminio anodizado blanco con
-              cristal laminado 6mm (3+3) color ahumado. Dos ventanas de
-              guillotina con cristal tintado. Cabina: dos ventanas de apertura
-              frontal de aluminio anodizado con vidrio laminado laminado de 6 mm
-              (3+3) color ahumado. Dos ventanas correderas laterales con vidrio
-              laminado 6mm (3+3) color humo, una escotilla de 50x38 en el techo
-              de la cocina, una escotilla de 62x63 el techo de la cabina, dos
-              portillos de 27x14 en la proa, en los camarotes de proa, y un ojo
-              de buey de 42x25 en el camarote de popa cabina de popa. Cubierta:
-              Dos escotillas de 42x42 en la proa, dos escotillas de 51x51 en los
-              camarotes. Casco: Seis portillos de 42x25 en camarotes, baño y
-              aseos, seis puertas interiores huecas revestidas de Formica con
-              marco de aluminio anodizado.
-            </p>
-            <div class="img_box">
-              <img src="../IMG/Bora5 800x800.jpg" alt="Barco" />
+          <hr class="featurette-divider">
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="heading_bora">Iluminación y Ventilación</h2>
+              <p class="display_2_description">Acceso: Puerta corredera doble de aluminio anodizado blanco con
+                cristal laminado 6mm (3+3) color ahumado. Dos ventanas de
+                guillotina con cristal tintado. Cabina: dos ventanas de apertura
+                frontal de aluminio anodizado con vidrio laminado laminado de 6 mm
+                (3+3) color ahumado. Dos ventanas correderas laterales con vidrio
+                laminado 6mm (3+3) color humo, una escotilla de 50x38 en el techo
+                de la cocina, una escotilla de 62x63 el techo de la cabina, dos
+                portillos de 27x14 en la proa, en los camarotes de proa, y un ojo
+                de buey de 42x25 en el camarote de popa cabina de popa. Cubierta:
+                Dos escotillas de 42x42 en la proa, dos escotillas de 51x51 en los
+                camarotes. Casco: Seis portillos de 42x25 en camarotes, baño y
+                aseos, seis puertas interiores huecas revestidas de Formica con
+                marco de aluminio anodizado.</p>
+            </div>
+            <div class="col-md-5">
+              <img src="../IMG/Bora3 800x800.jpg" alt="Barco" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
             </div>
           </div>
+
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="footer">
-      <div class="footer_sm">
-        <div class="container">
-          <div class="footer_sm_icons">
-            <h3 class="footer_title">Encontranos en las redes</h3>
-            <div class="icono">
-              <img src="../ICONOS/instagram.png" alt="Instagram icono" />
-              <img
-                src="../ICONOS/facebook-app-symbol.png"
-                alt="Facebook icono"
-              />
-            </div>
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">&copy; Copyright 2023 © - Creado por BoraCat 36</span>
           </div>
-        </div>
-      </div>
-      <div class="footer_bottom">
-        <div class="container">
-          <div class="footer-bottom_copyright">
-            <p>Copiright 2023 © - Creado por BoraCat 36</p>
-          </div>
-        </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <img src="../iconos/instagram.png" alt="Instagram icono" height="50" />
+            <img src="../iconos/facebook-app-symbol.png" alt="Facebook icono" height="50"/>
+          </ul>
+        </footer>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/bootstrap/js/bootstrap.js" />
   </body>
 </html>

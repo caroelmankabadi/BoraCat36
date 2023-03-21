@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 1rem;
+  background-color: whitesmoke;
+  font-family: "Oxygen Mono", monospace;
+
+  .footer_title {
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .footer_sm_icons {
+    padding: 0.5rem;
+  }
+
+  .footer-bottom_copyright {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}

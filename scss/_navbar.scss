@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: inline-block;
+  list-style: none;
+  font-family: "Oxygen Mono", monospace;
+
+  ul {
+    margin-left: 1, 5rem;
+
+    li {
+      list-style: none;
+      display: flex;
+
+      a {
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 3rem;
+        text-transform: uppercase;
+        color: grey;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+header {
+  background-color: whitesmoke;
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}

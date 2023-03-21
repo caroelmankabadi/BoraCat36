@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#intro_section {
+  padding-top: 4rem;
+  text-align: center;
+  font-family: "Oxygen Mono", monospace;
+
+  .display_2 {
+    font-size: 4rem;
+
+    .display_2_intro {
+      font-size: 6rem;
+      text-align: center;
+      width: 100%;
+    }
+
+    .display_2_description {
+      font-size: 1.2rem;
+      display: inline-block;
+      margin-top: 1.2rem;
+    }
+  }
+
+  .row {
+    display: inline-block;
+  }
+}
+
+#carouselExample {
+  width: 100%;
+
+  .carousel-inner {
+    width: 100%;
+  }
+}
+
+#contact {
+  text-align: center;
+  padding: 4rem;
+  font-family: "Oxygen Mono", monospace;
+
+  .contact_title {
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}

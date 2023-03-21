@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Mi CSS -->
-    <link rel="stylesheet" href="Css/style.css"  />
+     <!-- Mi CSS -->
+     <link rel="stylesheet" href="Css/style.css"  />
     <!-- Icono Bora Cat -->
     <link rel="shortcut icon" href="IMG/Untitled-3.png" type="image/x-icon" />
     <title>BoraCat 36</title>
@@ -66,22 +66,24 @@
           <h1 class="display_2">
             <span class="display_2_intro">El Nuevo Bora Bora 36</span>
             <span class="display_2_description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
-              iure perspiciatis, consequuntur, voluptatum nulla cum totam
-              voluptatibus obcaecati voluptate est quia eaque odit corrupti quis
-              laudantium ducimus eligendi delectus ab.
+              El nuevo catamarán a vela constrido en laminado solido de fibra de vidrio...
             </span>
           </h1>
           <div id="carouselExample" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="Img/Bora 800x800.jpg" class="d-block w-100" alt="...">
+                <img src="Img/Bora 800x800.jpg" class="d-block w-100" alt="..." width="100%"> 
               </div>
               <div class="carousel-item">
-                <img src="Img/Bora2 800x800.jpg" class="d-block w-100" alt="...">
+                <img src="Img/Bora2 800x800.jpg" class="d-block w-100" alt="..." width="100%">
               </div>
               <div class="carousel-item">
-                <img src="Img/Bora3 800x800.jpg" class="d-block w-100" alt="...">
+                <img src="Img/Bora3 800x800.jpg" class="d-block w-100" alt="..." width="100%">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -108,23 +110,20 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <div class="footer_sm">
-        <div class="container">
-          <div class="footer_sm_icons">
-            <h3 class="footer_title">Encontranos en las redes</h3>
-            <div class="icono">
-              <img src="iconos/instagram.png" alt="Instagram icono" />
-              <img src="iconos/facebook-app-symbol.png" alt="Facebook icono" />
-            </div>
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">&copy; Copyright 2023 - Creado por BoraCat 36</span>
           </div>
-        </div>
-      </div>
-      <div class="footer_bottom">
-        <div class="container">
-          <div class="footer-bottom_copyright">
-            <p>Copiright 2023 © - Creado por BoraCat 36</p>
-          </div>
-        </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <img src="iconos/instagram.png" alt="Instagram icono" height="50" />
+            <img src="iconos/facebook-app-symbol.png" alt="Facebook icono" height="50"/>
+          </ul>
+        </footer>
       </div>
     </footer>
     <script

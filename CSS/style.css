@@ -4,6 +4,29 @@
   box-sizing: border-box;
 }
 
+nav {
+  display: inline-block;
+  list-style: none;
+  font-family: "Oxygen Mono", monospace;
+}
+nav ul {
+  margin-left: 1, 5rem;
+}
+nav ul li {
+  list-style: none;
+  display: flex;
+}
+nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 3rem;
+  text-transform: uppercase;
+  color: grey;
+}
+nav ul li a:hover {
+  color: red;
+}
+
 header {
   background-color: whitesmoke;
   padding: 0.5rem 0;
@@ -12,159 +35,168 @@ header {
   z-index: 2;
 }
 
-body {
-  font-family: "Oxygen Mono", monospace;
-}
-
-img {
-  max-width: 100%;
-}
-
-svg {
-  vertical-align: middle;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav {
-  display: inline-block;
-  list-style: none;
-}
-
-.nav_item {
-  margin-left: 1.5rem;
-}
-
-.nav__list {
-  list-style: none;
-  display: flex;
-}
-
-.nav__link {
-  text-decoration: none;
-  display: inline-block;
-  margin-left: 3rem;
-  text-transform: uppercase;
-  color: grey;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 #intro_section {
   padding-top: 4rem;
+  text-align: center;
+  font-family: "Oxygen Mono", monospace;
 }
-
-.display_2 {
-  text-transform: capitalize;
+#intro_section .display_2 {
   font-size: 4rem;
 }
-
-.display_2_intro {
-  font-weight: 400;
+#intro_section .display_2 .display_2_intro {
+  font-size: 6rem;
   text-align: center;
+  width: 100%;
 }
-
-.display_2_description {
+#intro_section .display_2 .display_2_description {
   font-size: 1.2rem;
   display: inline-block;
   margin-top: 1.2rem;
 }
-
-.img_box {
-  text-align: center;
-  width: 600mm;
+#intro_section .row {
+  display: inline-block;
 }
 
-.img_box_1 {
-  text-align: center;
+#carouselExample {
+  width: 100%;
+}
+#carouselExample .carousel-inner {
   width: 100%;
 }
 
 #contact {
   text-align: center;
-  padding-top: 2rem;
+  padding: 4rem;
+  font-family: "Oxygen Mono", monospace;
 }
-
-.contact_title {
+#contact .contact_title {
   padding: 1.5rem;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-align: center;
 }
 
-.display_3 {
-  font-size: 2rem;
-  padding-bottom: 2rem;
-}
-
-.display_4 {
-  font-size: 1.5rem;
-}
-
-.display_5 {
-  font-size: 1rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-right: 2rem;
-}
-
-.display_6 {
-  font-size: 1rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
-}
-
-.form_1 {
-  padding-top: 4rem;
-  padding-bottom: 2rem;
-}
-
-.map_location {
-  text-align: center;
-  padding: 2rem;
-}
-
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 0.7rem;
-}
-
-.galeria img {
-  width: 100%;
-}
-
-.img_galeria {
-  padding-left: 2rem;
-  padding-bottom: 2rem;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 #footer {
-  padding: 1.5rem;
+  text-align: center;
+  padding-top: 1rem;
+  background-color: whitesmoke;
+  font-family: "Oxygen Mono", monospace;
 }
-
-.footer_title {
+#footer .footer_title {
   padding: 1.5rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   text-align: center;
 }
-
-.footer_sm_icons {
-  padding: 1.5rem;
-  text-align: center;
+#footer .footer_sm_icons {
+  padding: 0.5rem;
 }
-
-.footer-bottom_copyright {
+#footer .footer-bottom_copyright {
   padding: 1.5rem;
   text-align: center;
   font-size: 0.8rem;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.display_bora {
+  font-family: "Oxygen Mono", monospace;
+  text-align: center;
+  padding: 2rem;
+}
+
+.display_2_description {
+  font-family: "Oxygen Mono", monospace;
+}
+
+.heading_bora {
+  padding: 1rem;
+  font-family: "Oxygen Mono", monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 100%;
+  font-family: "Oxygen Mono", monospace;
+}
+.card .card_title {
+  padding: 1rem;
+}
+.card .card_text {
+  padding: 1rem;
+}
+
+.button {
+  color: black;
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+.button:hover {
+  color: red;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.map_location {
+  width: 100%;
+}
+
+.form_inicial {
+  font-family: "Oxygen Mono", monospace;
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.form_text {
+  font-family: "Oxygen Mono", monospace;
+}
+
+.general_form {
+  width: 100%;
+}
+
+.button {
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  background-color: black;
+}
+.button:hover {
+  color: red;
+}
+
+.button_2 {
+  color: black;
+  padding: 1rem;
+  text-align: center;
+  background-color: white;
+}
+.button_2:hover {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
