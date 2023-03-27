@@ -7,7 +7,7 @@
 nav {
   display: inline-block;
   list-style: none;
-  font-family: "Oxygen Mono", monospace;
+  font-family: $font-primary;
 
   ul {
     margin-left: 1, 5rem;
@@ -21,7 +21,7 @@ nav {
         display: inline-block;
         margin-left: 3rem;
         text-transform: uppercase;
-        color: grey;
+        color: $secondary-color;
 
         &:hover {
           color: $primary-color;

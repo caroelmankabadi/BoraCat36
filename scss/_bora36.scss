@@ -5,16 +5,11 @@
 }
 
 .display_bora {
-  font-family: "Oxygen Mono", monospace;
+  font-family: $font-primary;
   text-align: center;
   padding: 2rem;
 }
 
 .display_2_description {
-  font-family: "Oxygen Mono", monospace;
-}
-
-.heading_bora {
-  padding: 1rem;
-  font-family: "Oxygen Mono", monospace;
+  font-family: $font-primary;
 }

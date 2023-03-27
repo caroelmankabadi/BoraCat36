@@ -16,7 +16,7 @@
 }
 
 .form_text {
-  font-family: "Oxygen Mono", monospace;
+  font-family: $font-primary;
 }
 
 .general_form {
@@ -26,7 +26,6 @@
 .button {
   color: white;
   padding: 1rem;
-  text-align: center;
   background-color: black;
 
   &:hover {
@@ -37,7 +36,6 @@
 .button_2 {
   color: black;
   padding: 1rem;
-  text-align: center;
   background-color: white;
 
   &:hover {
